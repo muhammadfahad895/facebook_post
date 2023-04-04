@@ -1,0 +1,30 @@
+import FbImageLibrary from "react-fb-image-grid";
+
+<FbImageLibrary
+images={[
+"https://i.dummyjson.com/data/products/4/1.jpg",
+"https://i.dummyjson.com/data/products/4/2.jpg",
+"https://i.dummyjson.com/data/products/4/3.jpg",
+"https://i.dummyjson.com/data/products/4/4.jpg",
+"https://i.dummyjson.com/data/products/4/4.jpg",
+"https://i.dummyjson.com/data/products/4/4.jpg",
+"https://i.dummyjson.com/data/products/4/4.jpg",
+]}
+/>
+
+https://getcssscan.com/css-box-shadow-examples
+
+Develop a Facebook post component!
+https://dummyjson.com/products
+
+Tasks
+
+1. Use the above dummy API to fetch data
+2. Create a Facebook post styled component which takes an object as a prop and returns a Facebook post as shown in the attached image
+3. Pass the dummy API data into the component inside the map function to render all the data
+   develop the component to use these fields with the same design as Facebook posts or think for another unique and stunning design.
+   Also add hover functionality on the likes button which shows 5 different emojis
+
+What else left after the above things, we'll implement in future assignments!
+This will enable you to provide your components to other developers, they'll just need to add an object and magically your component will return a Facebook post feature!
+Basically, I'm moving you guys to develop a library!

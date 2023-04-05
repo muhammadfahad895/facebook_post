@@ -28,9 +28,14 @@ const FacebookPost = ({ data }) => {
           <p className="post-description" style={{ paddingBlock: "0.5rem" }}>
             {data.description}
           </p>
-          <div className="post-img_div">
+          <div className="images">
             {data.images.map((i) => (
-              <img className="post-img" src={i} alt="" />
+              <img
+                className="post-img"
+                src={i}
+                alt=""
+                style={{ width: data.images.length === 1 && "560px" }}
+              />
             ))}
           </div>
         </div>

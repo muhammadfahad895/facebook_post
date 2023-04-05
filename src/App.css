@@ -57,7 +57,7 @@ p {
 }
 
 .Reaction-icons {
-  background-color: #1e1f22;
+  background-color: #2e3031;
   width: fit-content;
   padding: 0.3rem;
   border-radius: 20px;
@@ -94,7 +94,7 @@ p {
   height: 300px;
 } */
 .images {
-  columns: 4 300px;
+  columns: 2 120px;
   column-gap: 10px;
 }
 img {
@@ -103,10 +103,10 @@ img {
 
 @media only screen and (max-width: 600px) {
   .container .facebook-post {
-  width: 100%;
-}
-.images {
-  columns: 3 120px;
-  column-gap: 10px;
-}
+    width: 100%;
+  }
+  .images {
+    columns: 3 120px;
+    column-gap: 10px;
+  }
 }

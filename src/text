@@ -1,5 +1,7 @@
 import FbImageLibrary from "react-fb-image-grid";
 
+npm install react-fb-image-grid --force
+
 <FbImageLibrary
 images={[
 "https://i.dummyjson.com/data/products/4/1.jpg",
@@ -28,3 +30,5 @@ Tasks
 What else left after the above things, we'll implement in future assignments!
 This will enable you to provide your components to other developers, they'll just need to add an object and magically your component will return a Facebook post feature!
 Basically, I'm moving you guys to develop a library!
+
+https://dev.to/oussel/how-to-use-conditional-rendering-with-animation-in-react-1k20

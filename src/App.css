@@ -100,3 +100,13 @@ p {
 img {
   width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+  .container .facebook-post {
+  width: 100%;
+}
+.images {
+  columns: 3 120px;
+  column-gap: 10px;
+}
+}

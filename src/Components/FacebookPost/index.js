@@ -34,7 +34,10 @@ const FacebookPost = ({ data }) => {
                 className="post-img"
                 src={i}
                 alt=""
-                style={{ width: data.images.length === 1 && "560px" }}
+                style={{
+                  width: data.images.length === 1 && "320px",
+                  overflow: "hidden",
+                }}
               />
             ))}
           </div>
